@@ -1,0 +1,73 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+	h1 {
+		display: none;
+		visibility: hidden;
+	}
+	.site-logo {
+		width: 100%;
+		display: block;
+		img {
+			margin: $vert-spacing-unit auto;
+			display: block;
+		}
+		
+	} 
+	.blurb {
+		padding: $all-round;
+		max-width: 600px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.before-after {
+		background-color: $black;
+
+		img {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			height: auto;
+			max-width: 800px;
+		}
+	}
+	.node--webform, .contact-form, .webform-confirmation, .links {
+		padding: $all-round;
+		max-width: 600px;
+		margin: 0 auto;
+		
+	}
+	h2 {
+			text-align: center;
+			padding: $all-round;
+		max-width: 600px;
+		margin: 0 auto;
+		}
+	.footer {
+		background-color: $dark-grey;
+		img {
+			width: 150px;
+			height: auto;
+			padding: $all-round;
+			margin: 0 auto;
+			//float: right;
+			display: block;
+		}
+	}
+	.webform-confirmation, .links {
+		padding: 0 $horz-spacing-unit;
+	}
+@include breakpoint(tablet) {
+	.front {
+	}
+	
+}
+@include breakpoint(desktop) {
+	.front {
+
+
+	}
+
+}
